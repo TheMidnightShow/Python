@@ -1,0 +1,18 @@
+>>> produto  = 'miojo'
+>>> produto2 = 'agua'
+>>> produto3 = 'queijo'
+
+>>> valor = 5.25
+>>> valor2
+>>> valor3 = 12
+
+>>> print ('o produto ' + produto2 +    ' custa R$ ' +  str(3.50))
+#o produto agua custa R$ 3.5
+
+Ou
+
+>>> print ( f'o produto {produto2}  custa R$ {valor2}')
+# O produto agua  custa R$ 3.5
+
+>>> print (f'O total da compra é R$ {valor + valor2 + valor3}')
+# O total da compra é R$ 20.75
