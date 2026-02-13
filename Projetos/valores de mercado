@@ -1,18 +1,19 @@
 >>> produto  = 'miojo'
->>> produto2 = 'agua'
->>> produto3 = 'queijo'
+>>> produto_2 = 'agua'
+>>> produto_3 = 'queijo'
 
->>> valor = 5.25
->>> valor2
->>> valor3 = 12
+>>> valor_1 = 5.25
+>>> valor_2 = 3,5
+>>> valor_3 = 12
 
->>> print ('o produto ' + produto2 +    ' custa R$ ' +  str(3.50))
+>>> print ('o produto ' + produto_2 +    ' custa R$ ' +  str(3.50))
 #o produto agua custa R$ 3.5
 
 Ou
 
->>> print ( f'o produto {produto2}  custa R$ {valor2}')
+>>> print ( f'o produto {produto_2}  custa R$ {valor_2}')
 # O produto agua  custa R$ 3.5
 
 >>> print (f'O total da compra é R$ {valor + valor2 + valor3}')
 # O total da compra é R$ 20.75
+ 
